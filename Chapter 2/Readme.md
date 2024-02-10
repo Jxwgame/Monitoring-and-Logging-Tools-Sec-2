@@ -9,3 +9,7 @@
 	journalctl [options] [unit]
 
 ### ตัวอย่างเมื่อใช้คำสั่ง journalctl
+<div>
+  <img align="right" width="100%" src="image/journalctl.png">
+  <p>&nbsp;</p>
+</div>
