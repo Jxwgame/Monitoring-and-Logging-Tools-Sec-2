@@ -83,7 +83,6 @@ touch gumball<br>
 rm gumball<br>
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/b2c83a57-57d3-40fb-a0a9-17935260926e)<br>
 
-
 **2. มาต่อกันที่การอ่านและเขียนเนื้อหาไฟล์**<br>
 
 
