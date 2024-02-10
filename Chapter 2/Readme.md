@@ -17,6 +17,7 @@
 ### Option ทั้งหมดของคำสั่ง journalctl
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">
+	
 | Options                 | Description                | Example   | Result |
 | :---------------:  | :---------------------: | :-----------------: | :----------------: |
 | --system | แสดงข้อความจาก service ของระบบ | journalctl --system | <img align="right" width="100%" src="image/jourSystem.png"> |
@@ -67,6 +68,7 @@
 ### Command ทั้งหมดของคำสั่ง journalctl
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">
+	
 | Options                 | Description                | Example   | Result |
 | :---------------:  | :---------------------: | :-----------------: | :----------------: |
 | -h, --help | แสดงข้อความช่วยเหลือ | journalctl -h | <img align="right" width="100%" src="image/jourHelp.png"> |
