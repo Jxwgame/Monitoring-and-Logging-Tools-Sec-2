@@ -111,9 +111,26 @@ echo "Hello My Name Is ZUZIE" > text.txt<br>
 cat text.txt<br>
 จะได้outputว่า<br>
 Hello My Name Is Zuzie<br>
+![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/d857bf52-0a89-4eb8-b6be-e32dee718c38)
+
 **3. การค้นหาข้อความในไฟล์**<br>
 การที่เรามีข้อมูลแล้วแต่ว่าบางทีนั้นเราต้องการข้อมูลในจุดๆนึงซั่งบางทีข้อมูลมันเยอะเกินทำให้เราอาจจะต้องเสียเวลาในการเลื่อนหาจะ linux เลยมีตัวช่วยในการหาข้อมูลหรือข้อความในไฟล์เพือความสะดวกสะบาย<br>
 **GREP**
+คำสั่ง grep เอาไว้ใช้หาคำเฉพาะเจาะจงในบรรทัดตามที่เราต้องการ<br>
+grep "คำที่ต้องการค้นหา" ไฟล์ที่เราต้องการค้นหา<br>
+เช่น เราจะหา Error ในไฟล์ log.txt เราก็ใช้คำสั่ง grep "error" log.txt<br>
+Output(สมมุติ)<br>
+1:2023-11-16 14:23:54 ERROR: Connection Failed.<br>
+2:2023-11-16 14:24:01 ERROR: File not found.<br>
+สามารถใส่ option ในการหาได้ด้วยเช่น<br>
+grep <option> <word> <filename><br>
+-i = ไม่สนพิมเล็กพิมใหญ่<br>
+-v = แสดงoutput ที่ไม่ได้อยู่ในคำที่เราหา<br>
+-c = นับจำนวนบรรทัดที่เข้าเงื่อนไข<br>
+-h = แสดงบรรทัดที่เข้าเงื่อนไขแต่ไม่ระบุชื่อไฟล์<br>
+-n = แสดงบรรทัดที่เข้าเงื่อนไขกับ จำนวนบรรทัดที่เข้าเงื่อนไข<br>
+-w = แสดงบรรทัดที่ตรงกับ คำที่หาแบบเป็ะๆ<br>
+
 
 
 
@@ -143,4 +160,5 @@ https://saixiii.com/cat-linux-command/<br>
 https://www.geeksforgeeks.org/echo-command-in-linux-with-examples/<br>
 https://www.redhat.com/sysadmin/create-delete-files-directories-linux<br>
 https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/#:~:text=to%20a%20File-,What%20Is%20the%20grep%20Command%20in%20Linux,see%20which%20lines%20contain%20it.<br>
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/<br>
 
