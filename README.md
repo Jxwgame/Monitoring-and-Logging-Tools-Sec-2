@@ -6,7 +6,7 @@
 
 ## Chapter of Monitoring and Logging Tools
 - 🛠 [**Chapter 1 Monitoring and Logging Tools**]()
-- 📈 [**Chapter 2 Log Reader and Analysis**]()
+- 📈 [**Chapter 2 Log Reader and Analysis**](Chapter 2/Readme.md)
 - 📝 [**Chapter 3 Log Collection and Server**]()
 - 📚 [**Chapter 4 Log Files**]()
 - 📩 [**Chapter 5 Working with Texts**]()
