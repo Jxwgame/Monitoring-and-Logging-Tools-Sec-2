@@ -35,7 +35,7 @@
 | 65070094           | นายธนภัทร โชติรัตน์     | right 1           | Image1sssssssssssssssssssssssssssssssssssssssssssssssssssssss |
 | 65070096           | นายธนวัฒน์ สอนสระน้อย | right 2           |       |
 | 65070108           | นายธีรภัทร์ สังข์สี       | right 3           |       |
-| 65070109           | นายธีระรัตน์ สุดสงวน     | Chapter 2 Log Reader/Analysis          | <img align="right" width="100%" src="image/nut.png"> |
+| 65070109           | นายธีระรัตน์ สุดสงวน     | Chapter 2 Log Reader/Analysis          | <img align="right" width="100%" src="image/nut.jpg"> |
 | 65070114           | นายนพรุจ บุญประสิทธิผล  | right 5           |       |
 | 65070139           | นายปิยธานี ศรีทอง       | right 5           |       |
 | 65070141           | นายไผทมาศ มาดไทย    | right 5           |       |
