@@ -32,18 +32,14 @@
 | -b [ID][±offset], --boot [=ID][±offset] | แสดงข้อความที่เกี่ยวกับการบูต โดยกำหนดลำดับได้ | journalctl -b [ID][±offset] | <img align="right" width="100%" src="image/jourBoot.png"> |
 | --list-boots | แสดงผลบูตแบบ list | journalctl --list-boots | <img align="right" width="100%" src="image/jourListBoot.png"> |
 | -k, --dmesg | แสดงบันทึกในระดับ kernel | journalctl -k | <img align="right" width="100%" src="image/jourDmesg.png"> |
+| -u, --unit=UNIT | แสดงข้อความเกี่ยวกับ unit ใน system unit | journalctl -u UNIT | <img align="right" width="100%" src="image/jourUnit.png"> |
+| --user-unit=UNIT | แสดงข้อความเกี่ยวกับ unit ใน user unit | journalctl --user-unit=UNIT | <img align="right" width="100%" src="image/jourUserUnit.png"> |
+| -t, --identifier=STRING | แสดงบันทึกที่เป็นค่า identifier ที่กำหนด | journalctl -t STRING | <img align="right" width="100%" src="image/jourIdentifier.png"> |
+| -p, --priority=RANGE | แสดงข้อความตามระดับความสำคัญ (Range=0-7) | journalctl -p RANGE | <img align="right" width="100%" src="image/jourPriority.png"> |
+| --facility=FACILITY | กรองและแสดงข้อความตาม facility(0-23) | journalctl --facility=FACILITY | <img align="right" width="100%" src="image/jourFacility.png"> |
+| -g, --grep=PATTERN | กรองและแสดงข้อความตาม pattern | journalctl -g PATTERN | <img align="right" width="100%" src="image/jourGrep.png"> |
+| --case-sensitive[=BOOL] | เงื่อนไขเพิ่มเติม โดยไม่สนพิมพ์เล็ก-ใหญ่ | journalctl --grep “error ” --case-sensitive | <img align="right" width="100%" src="image/jourCseSensitive.png"> |
+| -e, --pager-end | เพื่อเรียกใช้งาน pager | journalctl -e | <img align="right" width="100%" src="image/jourPager.png"> |
 
-| -u, --unit=UNIT | แสดงข้อความเกี่ยวกับ unit ใน system unit | journalctl -u UNIT | <img align="right" width="100%" src="image/jourSystem.png"> |
-| --user-unit=UNIT | แสดงข้อความเกี่ยวกับ unit ใน user unit | journalctl --user-unit=UNIT | <img align="right" width="100%" src="image/jourUser.png"> |
-| -t, --identifier=STRING | แสดงบันทึกที่เป็นค่า identifier ที่กำหนด | journalctl -t STRING |  |
-| -p, --priority=RANGE | แสดงข้อความตามระดับความสำคัญ (Range=0-7) | journalctl -p RANGE | <img align="right" width="100%" src="image/jourSince.png"> |
-| --facility=FACILITY | กรองและแสดงข้อความตาม facility(0-23) | journalctl --facility=FACILITY | <img align="right" width="100%" src="image/jourUntil.png"> |
-| -g, --grep=PATTERN | กรองและแสดงข้อความตาม pattern | journalctl -g PATTERN |  |
-| --case-sensitive[=BOOL] | เงื่อนไขเพิ่มเติม โดยไม่สนพิมพ์เล็ก-ใหญ่ | journalctl --grep “error ” --case-sensitive |  |
-| -e, --pager-end | เพื่อเรียกใช้งาน pager | journalctl -e | <img align="right" width="100%" src="image/jourShowCursor.png"> |
-
-| -b [ID][±offset], --boot [=ID][±offset] | แสดงข้อความที่เกี่ยวกับการบูต โดยกำหนดลำดับได้ | journalctl -b [ID][±offset] | <img align="right" width="100%" src="image/jourBoot.png"> |
-| --list-boots | แสดงผลบูตแบบ list | journalctl --list-boots | <img align="right" width="100%" src="image/jourListBoot.png"> |
-| -k, --dmesg | แสดงบันทึกในระดับ kernel | journalctl -k | <img align="right" width="100%" src="image/jourDmesg.png"> |
 </table>
 </div>
