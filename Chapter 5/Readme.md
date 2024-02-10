@@ -84,6 +84,31 @@ rm gumball<br>
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/b2c83a57-57d3-40fb-a0a9-17935260926e)<br>
 
 **2. มาต่อกันที่การอ่านและเขียนเนื้อหาไฟล์**<br>
+หลังจากที่ได้เรียนรู้การสร้างไฟล์ และ Directoryแล้วเราต้องเรียนรู้ในการเอาข้อมูลมาใส่ในไฟล์ด้วยเพื่อการนำไปใช่ประโยนชน์ที่หลากหลายมากขึ้น<br>
+มาเรียนรู้คำสั่ง echo กัน<br>
+echo เป็นคำสั่งที่จะแสดงผลผ่านTerminal ตาม inputที่เราใส่ไป<br>
+ตัวอย่างเช่น<br>
+echo คำว่า Hi user ใช้คำสั่ง<br>
+echo Hi user<br>
+![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/0e5f1b8d-2586-4b02-8781-3ffc1ae082b1)<br>
+สามารถใส่ลูกเล่นได้หลายๆแบบแต่ ต้องเติม-e หลัง echo <br>
+ตัวอย่างลูกเล่น echo<br>
+\n = ขึ้นบรรทัดใหม่<br>
+\t = whitespace<br>
+\r = ไม่เอาตัวก่อนหน้า\r<br>
+\b = จะไม่มีwhitespaceตรงที่พิม<br>
+![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/710572bf-b4ae-480a-84c9-0412e898a0c5)<br>
+เอาแค้นี้ก่อนดีกว่าจริงๆมีลูกเล่นอีกเยอะนะ<br>
+และก็ไหนๆเราก็มีไฟลเปล่าๆแล้วเราสามารถ ยัดข้อความที่ echo ใส่ในไฟล์ได้ ไฟล์เราจะได้ไม่เป็นไฟล์เปล่าอีกต่อไปเย้<br>
+ใช้คำสั่ง echo "_____" > ชื่อไฟล์.txt เป็นการเขียนทับข้อความลงไฟล์นั้นๆไปเลย<br>
+echo "Hello My Name Is ZUZIE" > text.txt<br>
+ตอนนี้ไฟล์ text.txt ก็มีข้อความข้างในว่า "Hello My Name Is ZUZIE" แล้วแต่เราจะดูยังไง เราเลยต้องมีคำสั่ง Catมาช่วยนั่นเอง<br>
+ใช้คำสั่ง cat ตามด้วยชื่อไฟล์ จะเป็นการแสดงแสดงข้อความข้างในไฟล์<br>
+cat text.txt<br>
+จะได้outputว่า
+Hello My Name Is Zuzie
+
+
 
 
 
