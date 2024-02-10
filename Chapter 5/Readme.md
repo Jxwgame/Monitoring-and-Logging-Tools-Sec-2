@@ -105,8 +105,8 @@ echo "Hello My Name Is ZUZIE" > text.txt<br>
 ตอนนี้ไฟล์ text.txt ก็มีข้อความข้างในว่า "Hello My Name Is ZUZIE" แล้วแต่เราจะดูยังไง เราเลยต้องมีคำสั่ง Catมาช่วยนั่นเอง<br>
 ใช้คำสั่ง cat ตามด้วยชื่อไฟล์ จะเป็นการแสดงแสดงข้อความข้างในไฟล์<br>
 cat text.txt<br>
-จะได้outputว่า
-Hello My Name Is Zuzie
+จะได้outputว่า<br>
+Hello My Name Is Zuzie<br>
 
 
 
@@ -130,3 +130,8 @@ https://earthly.dev/blog/linux-text-processing-commands/
 - 📚 [**Chapter 4 Log Files**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%204/Readme.md)
 
 # Source
+https://earthly.dev/blog/linux-text-processing-commands/
+https://saixiii.com/cat-linux-command/
+https://www.geeksforgeeks.org/echo-command-in-linux-with-examples/
+https://www.redhat.com/sysadmin/create-delete-files-directories-linux
+
