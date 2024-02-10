@@ -42,10 +42,25 @@
 | -e, --pager-end | เพื่อเรียกใช้งาน pager | journalctl -e | <img align="right" width="100%" src="image/jourPager.png"> |
 | -f, --follow | ติดตามบันทึกข้อความใหม่ที่เพิ่มเข้ามาใน journal ในขณะที่โปรแกรมกำลังทำงานอยู่ | journalctl -f | <img align="right" width="100%" src="image/jourFollow.png"> |
 | -n, --lines[=INTEGER] | กำหนดจำนวนบันทึกข้อความที่จะแสดง | journalctl -n 1 | <img align="right" width="100%" src="image/jourLines.png"> |
-| --no-tail | แสดงบันทึกข้อความทั้งหมดโดยไม่ติดตามบันทึกใหม่ | journalctl --no-tail | <img align="right" width="100%" src="image/jourNotail.png"> |
+| --no-tail | แสดงบันทึกข้อความทั้งหมดโดยไม่ติดตามบันทึกใหม่ | journalctl --no-tail | <img align="right" width="100%" src="image/jourNoTail.png"> |
 | -r, --reverse | แสดงบันทึกข้อความในลำดับย้อนกลับ คือจากบันทึกล่าสุดไปยังบันทึกเก่าสุด | journalctl -r | <img align="right" width="100%" src="image/jourReverse.png"> |
 | -o, --output=STRING | กำหนดรูปแบบการแสดงผลของบันทึกข้อความ เช่น json, json-pretty | journalctl -o json | <img align="right" width="100%" src="image/jourOutput.png"> |
 | --output-fields=LIST | กำหนดรายการของฟิลด์ที่ต้องการให้แสดง เช่น MESSAGE, PRIORITY, SYSLOG_IDENTIFIER | journalctl --output-fields=MESSAGE | <img align="right" width="100%" src="image/jourOutputFields.png"> |
 | --utc | แสดงเวลาในบันทึกข้อความตามเวลาสากล | journalctl --utc | <img align="right" width="100%" src="image/jourUtc.png"> |
+| -x, --catalog | แสดงผลลัพธ์ในรูปแบบ catalog | journalctl -x | <img align="right" width="100%" src="image/jourCatalog.png"> |
+| --no-full | ปิดการแสดงผลข้อความในโหมดเต็มหน้าจอ | journalctl --no-full | <img align="right" width="100%" src="image/jourNoFull.png"> |
+| -a, --all | แสดงข้อความทั้งหมด | journalctl -a | <img align="right" width="100%" src="image/jourAll.png"> |
+| -q, --quiet | ปิดข้อความเตือน | journalctl -q | <img align="right" width="100%" src="image/jourQuiet.png"> |
+| --no-pager | ปิดการแบ่งหน้า โดยจะแสดงข้อความทั้งหมดอัตโนมัติ | journalctl --no-pager | <img align="right" width="100%" src="image/jourNoPager.png"> |
+| --no-hostname | ไม่แสดงชื่อโฮสต์ของระบบ | journalctl --no-hostname | <img align="right" width="100%" src="image/jourNoHostname.png"> |
+| -m, --merge | แสดงข้อความที่แทรกเข้ามา | journalctl -m | <img align="right" width="100%" src="image/jourMerge.png"> |
+| -D, --directory=PATH | ระบุไดเร็กทอรีที่จะใช้สำหรับการค้นหา journal files | journalctl -D | <img align="right" width="100%" src="image/jourDirectory.png"> |
+| --file=PATH | ระบุไฟล์บันทึก journal ที่ต้องการอ่าน | journalctl --file=PATH |  |
+| --root=ROOT | ใช้สำหรับระบุไดเร็กทอรีรูท | journalctl --root=ROOT | <img align="right" width="100%" src="image/jourRoot.png"> |
+| --image=IMAGE | แสดงภาพจาก disk image | journalctl --image=IMAGE |  |
+| --namespace=NAMESPACE | ใช้ระบุ namespace | journalctl --namespace=NAMESPACE | <img align="right" width="100%" src="image/jourNamespace.png"> |
+| --interval=TIME | กำหนดเวลาในการรีเฟรชข้อมูล เมื่อใช้ --setup-key | journalctl - f --interval=TIME | <img align="right" width="100%" src="image/jourInterval.png"> |
+| --verify-key=KEY | ใช้เพื่อระบุคีย์ FSS สำหรับ verify เป็นการตรวจสอบความสมบูรณ์และความถูกต้องของข้อมูลใน journal files | journalctl --verify-key=KEY |  |
+| --force | เมื่อ --setup-keys ผ่าน และ FSS ถูกกำหนดค่าแล้ว จะทำการสร้าง FSS ใหม่ | journalctl --force | <img align="right" width="100%" src="image/jourForce.png"> |
 </table>
 </div>
