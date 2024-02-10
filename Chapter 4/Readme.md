@@ -122,6 +122,13 @@ logfiles ในระบบ linux สามารถแบ่งได้เป�
 โดยผมจะลองใช้กับ ssh
 
 ![enter image description here](https://media.discordapp.net/attachments/1110947924369743925/1205880587722686514/image.png?ex=65d9fad0&is=65c785d0&hm=76331858df66f314b0cd9d148bc498b6cd71f22011e1da212dc4dd675c59666f&=&format=webp&quality=lossless)
+
+# Other Chapter
+- 🛠 [**Introduction Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/README.md)
+- 🛠 [**Chapter 1 Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%201/Readme.md)
+- 📈 [**Chapter 2 Log Reader and Analysis**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%202/Readme.md)
+- 📝 [**Chapter 3 Log Collection and Server**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%203/Readme.md)
+- 📩 [**Chapter 5 Working with Texts**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%205/Readme.md)
  
 โดยการที่เราใช้คำสั่ง journalctl ทำให้เราสามารถดู message ที่เกี่ยวกับ service ที่เราต้องการได้อย่างมีประสิทธิภาพ โดยตัว journalctl รู้ว่า message ไหนที่เกี่ยวข้องกับ service หรือ unit ที่เราต้องการจะดูแล้วนำมาแสดงผล ซึ่งในที่หน้าที่ได้ดีกว่าการใช้คำสั่ง tail ร่วมกับ grep
 
