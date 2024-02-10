@@ -38,8 +38,14 @@
 | -p, --priority=RANGE | แสดงข้อความตามระดับความสำคัญ (Range=0-7) | journalctl -p RANGE | <img align="right" width="100%" src="image/jourPriority.png"> |
 | --facility=FACILITY | กรองและแสดงข้อความตาม facility(0-23) | journalctl --facility=FACILITY | <img align="right" width="100%" src="image/jourFacility.png"> |
 | -g, --grep=PATTERN | กรองและแสดงข้อความตาม pattern | journalctl -g PATTERN | <img align="right" width="100%" src="image/jourGrep.png"> |
-| --case-sensitive[=BOOL] | เงื่อนไขเพิ่มเติม โดยไม่สนพิมพ์เล็ก-ใหญ่ | journalctl --grep “error ” --case-sensitive | <img align="right" width="100%" src="image/jourCseSensitive.png"> |
+| --case-sensitive[=BOOL] | เงื่อนไขเพิ่มเติม โดยไม่สนพิมพ์เล็ก-ใหญ่ | journalctl --grep “error ” --case-sensitive | <img align="right" width="100%" src="image/jourCaseSensitive.png"> |
 | -e, --pager-end | เพื่อเรียกใช้งาน pager | journalctl -e | <img align="right" width="100%" src="image/jourPager.png"> |
-
+| -f, --follow | ติดตามบันทึกข้อความใหม่ที่เพิ่มเข้ามาใน journal ในขณะที่โปรแกรมกำลังทำงานอยู่ | journalctl -f | <img align="right" width="100%" src="image/jourFollow.png"> |
+| -n, --lines[=INTEGER] | กำหนดจำนวนบันทึกข้อความที่จะแสดง | journalctl -n 1 | <img align="right" width="100%" src="image/jourLines.png"> |
+| --no-tail | แสดงบันทึกข้อความทั้งหมดโดยไม่ติดตามบันทึกใหม่ | journalctl --no-tail | <img align="right" width="100%" src="image/jourNotail.png"> |
+| -r, --reverse | แสดงบันทึกข้อความในลำดับย้อนกลับ คือจากบันทึกล่าสุดไปยังบันทึกเก่าสุด | journalctl -r | <img align="right" width="100%" src="image/jourReverse.png"> |
+| -o, --output=STRING | กำหนดรูปแบบการแสดงผลของบันทึกข้อความ เช่น json, json-pretty | journalctl -o json | <img align="right" width="100%" src="image/jourOutput.png"> |
+| --output-fields=LIST | กำหนดรายการของฟิลด์ที่ต้องการให้แสดง เช่น MESSAGE, PRIORITY, SYSLOG_IDENTIFIER | journalctl --output-fields=MESSAGE | <img align="right" width="100%" src="image/jourOutputFields.png"> |
+| --utc | แสดงเวลาในบันทึกข้อความตามเวลาสากล | journalctl --utc | <img align="right" width="100%" src="image/jourUtc.png"> |
 </table>
 </div>
