@@ -40,4 +40,7 @@ logfiles ในระบบ linux สามารถแบ่งได้เป�
 	ls -la
 และนี้คือผลลัพธ์ที่ได้
 
+![enter image description here]([link_to_your_image](https://media.discordapp.net/attachments/1110947924369743925/1205859121971204106/image.png?ex=65d9e6d2&is=65c771d2&hm=1424b9090e6161c3af2521d91de2cdfc216a18d42ada8398c73926cbfce41cdb&=&format=webp&quality=lossless)){: width="100%"}
+
+
 ![enter image description here](https://media.discordapp.net/attachments/1110947924369743925/1205859121971204106/image.png?ex=65d9e6d2&is=65c771d2&hm=1424b9090e6161c3af2521d91de2cdfc216a18d42ada8398c73926cbfce41cdb&=&format=webp&quality=lossless){: width="100%"}
