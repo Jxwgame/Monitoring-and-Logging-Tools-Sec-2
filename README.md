@@ -26,21 +26,63 @@
 - Fluentd ระบบที่ให้บริการด้านการเก็บข้อมูลบันทึกแบบเปิด (open-source) และรองรับการทำงานร่วมกับหลายแหล่งข้อมูล
 - Graylog เครื่องมือการบันทึกและตรวจสอบที่ให้บริการแบบเปิด (open-source) ซึ่งรวม Log Management และ Security Information and Event Management (SIEM)
 
-## Creator 🎨
-<div align="center" style="width: 100%; margin: auto;">
-<table style="width: 100%; border-collapse: collapse;">
-
-| ID                 | Name                | Responsible Part   | Image |
-| :---------------:  | :---------------------: | :-----------------: | :----------------: |
-| 65070094           | นายธนภัทร โชติรัตน์     | right 1           | Image1sssssssssssssssssssssssssssssssssssssssssssssssssssssss |
-| 65070096           | นายธนวัฒน์ สอนสระน้อย | right 2           |       |
-| 65070108           | นายธีรภัทร์ สังข์สี       | right 3           |       |
-| 65070109           | นายธีระรัตน์ สุดสงวน     | Chapter 2 Log Reader/Analysis          | <img align="center" width="50%" src="image/nut.jpg"> |
-| 65070114           | นายนพรุจ บุญประสิทธิผล  | right 5           |       |
-| 65070139           | นายปิยธานี ศรีทอง       | right 5           |       |
-| 65070141           | นายไผทมาศ มาดไทย    | right 5           |       |
-</table>
+<div align="center">
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="text-align: center;">ID</th>
+        <th style="text-align: center;">Name</th>
+        <th style="text-align: center;">Responsible Part</th>
+        <th style="text-align: center;">Image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center;">65070094</td>
+        <td style="text-align: center;">นายธนภัทร โชติรัตน์</td>
+        <td style="text-align: center;">Chapter 2 Log Reader/Analysis</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070096</td>
+        <td style="text-align: center;">นายธนวัฒน์ สอนสระน้อย</td>
+        <td style="text-align: center;">Chapter 4 Log Files</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070108</td>
+        <td style="text-align: center;">นายธีรภัทร์ สังข์สี</td>
+        <td style="text-align: center;">Overview/Chapter 1 Monitoring/Logging Tools</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070109</td>
+        <td style="text-align: center;">นายธีระรัตน์ สุดสงวน</td>
+        <td style="text-align: center;">Chapter 2 Log Reader/Analysis</td>
+        <td style="text-align: center;"><img align="center" width="50%" src="https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/image/nut.jpg"></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070114</td>
+        <td style="text-align: center;">นายนพรุจ บุญประสิทธิผล</td>
+        <td style="text-align: center;">Chapter 3 Log Collection/Server</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070139</td>
+        <td style="text-align: center;">นายปิยธานี ศรีทอง</td>
+        <td style="text-align: center;">Chapter 3 Log Collection/Server</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">65070141</td>
+        <td style="text-align: center;">นายไผทมาศ มาดไทย</td>
+        <td style="text-align: center;">Chapter 4 Log Files</td>
+        <td style="text-align: center;"><img align="center" width="50%" src=""></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+และสามารถใส่รูปภาพใน
 
 # Source 📌
 - [Ref Monitoring and Logging]()
