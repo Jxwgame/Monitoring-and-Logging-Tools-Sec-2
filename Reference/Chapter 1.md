@@ -38,10 +38,20 @@
 # Logging Tools
 
 ## ELK Stack
-#### 
+#### https://aws.amazon.com/th/what-is/elk-stack/
+#### https://aws.amazon.com/th/opensearch-service/resources/the-benefits-of-the-elk-stack/
+#### https://medium.com/@benz20003/มาทำระบบ-monitoring-ด้วย-elk-กัน-70dcf19a38df
+#### https://medium.com/sirisoft/elk-stack-on-docker-container-5459795fb33c
+#### https://www.somkiat.cc/summary-elk-stack-for-big-data-at-yru/
+#### https://victorytale.com/th/learn-elastic-stack-online/
 
 ## Splunk
-#### 
+#### https://www.datadoghq.com/
+#### https://medium.com/@suttipornpoomi/splunk-คืออะไร-b926f852d49a
+#### https://stelligence.com/splunk/
+#### https://ratanon.com/posts/splunk
+#### https://tonfever.medium.com/สรุป-intro-to-splunk-f530237f6077
+#### https://www.splunk.com/
 
 ## Graylog
 #### https://www.techtalkthai.com/tag/graylog/
