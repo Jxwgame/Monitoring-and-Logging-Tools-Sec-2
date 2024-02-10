@@ -10,7 +10,7 @@
 | -a, --hostlast | แสดง hostname ในคอมลัมสุดท้าย | last -a | <img align="right" width="100%" src="image/lastHostlast.png"> |
 | -d, --dns | แปลงเลข IP เป็น hostname | last -d | <img align="right" width="100%" src="image/lastDns.png"> |
 | -f, --file <file> | ใช้ไฟล์อื่นแทน /var/log/wtmp | last -f /var/log/dmseg | <img align="right" width="100%" src="image/lastFile.png"> |
-| -F, --fulltimes | พิมพ์เวลาและวันที่เข้าสู่ระบบและออกจากระบบแบบเต็ม | last -F | <img align="right" width="100%" src="image/lastFulltimes.png"> |
+| -F, --fulltimes | พิมพ์เวลาและวันที่เข้าสู่ระบบและออกจากระบบแบบเต็ม | last -F | <img align="right" width="100%" src="image/lastFulltime.png"> |
 | -i, --ip | แสดงที่อยู่ IP ในรูปแบบจุด | last -i | <img align="right" width="100%" src="image/lastIP.png"> |
 | -n, --limit <number> | ระบุจำนวนบรรทัดที่จะแสดง | last -n 5 | <img align="right" width="100%" src="image/lastLimit.png"> |
 | -R, --nohostname | ไม่แสดงฟิลด์ hostname | last -R | <img align="right" width="100%" src="image/lastNohostname.png"> |
