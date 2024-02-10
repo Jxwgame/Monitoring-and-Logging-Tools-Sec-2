@@ -1,6 +1,6 @@
-# Option และ Command ทั้งหมดของคำสั่ง journalctl
+# Option และ Command ทั้งหมดของคำสั่ง last
 
-## Option ทั้งหมดของคำสั่ง journalctl
+## Option ทั้งหมดของคำสั่ง last
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">
 	
