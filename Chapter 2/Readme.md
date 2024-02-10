@@ -11,8 +11,7 @@
 
 #### ตัวอย่างเมื่อใช้คำสั่ง journalctl
 <div>
-  <img align="right" width="100%" src="image/journalctl.png">
-  <p>&nbsp;</p>
+  <img align="center" width="80%" src="image/journalctl.png">
 </div>
 
 #### Option และ Command ทั้งหมดของคำสั่ง journalctl
