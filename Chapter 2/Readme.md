@@ -15,4 +15,5 @@
 </div>
 
 #### Option และ Command ทั้งหมดของคำสั่ง journalctl
+   [**การใช้และคำอธิบายเบื้องต้นของ Option&Command ทั้งหมดของคำสั่ง journalctl**]()
 
