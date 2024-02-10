@@ -17,7 +17,6 @@
 ### Option ทั้งหมดของคำสั่ง journalctl
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">
-
 | Options                 | Description                | Example   | Result |
 | :---------------:  | :---------------------: | :-----------------: | :----------------: |
 | --system | แสดงข้อความจาก service ของระบบ | journalctl --system | <img align="right" width="100%" src="image/jourSystem.png"> |
@@ -62,5 +61,32 @@
 | --interval=TIME | กำหนดเวลาในการรีเฟรชข้อมูล เมื่อใช้ --setup-key | journalctl - f --interval=TIME | <img align="right" width="100%" src="image/jourInterval.png"> |
 | --verify-key=KEY | ใช้เพื่อระบุคีย์ FSS สำหรับ verify เป็นการตรวจสอบความสมบูรณ์และความถูกต้องของข้อมูลใน journal files | journalctl --verify-key=KEY |  |
 | --force | เมื่อ --setup-keys ผ่าน และ FSS ถูกกำหนดค่าแล้ว จะทำการสร้าง FSS ใหม่ | journalctl --force | <img align="right" width="100%" src="image/jourForce.png"> |
+</table>
+</div>
+
+### Command ทั้งหมดของคำสั่ง journalctl
+<div align="center" style="width: 100%; margin: auto;">
+<table style="width: 100%; border-collapse: collapse;">
+| Options                 | Description                | Example   | Result |
+| :---------------:  | :---------------------: | :-----------------: | :----------------: |
+| -h, --help | แสดงข้อความช่วยเหลือ | journalctl -h | <img align="right" width="100%" src="image/jourHelp.png"> |
+| --version | แสดง version | journalctl --version | <img align="right" width="100%" src="image/jourVersion.png"> |
+| -N, --fields | แสดงรายการชื่อฟิลด์ทั้งหมดที่ใช้อยู่ในปัจจุบัน | journalctl -N | <img align="right" width="100%" src="image/jourFields.png"> |
+| -F, --field=FIELD | แสดงรายการค่าทั้งหมดที่ฟิลด์ที่ระบุใช้ | journalctl -F _PID | <img align="right" width="100%" src="image/jourField.png"> |
+| --disk-usage | แสดงการใช้งานดิสก์ทั้งหมดของไฟล์เจอร์นัลทั้งหมด | journalctl --disk-usage | <img align="right" width="100%" src="image/jourDiskUsage.png"> |
+| --vacuum-size=BYTES | ลดการใช้ดิสก์ให้ต่ำกว่าขนาดที่ระบุ | Journalctl –vauum-size=500 | <img align="right" width="100%" src="image/jourVacuumSize.png"> |
+| --vacuum-files=INT | เหลือเพียงจำนวนไฟล์เจอร์นัลที่ระบุเท่านั้น | journalctl --vacuum-files=1 | <img align="right" width="100%" src="image/jourVacuumFiles.png"> |
+| --vacuum-time=TIME | ลบไฟล์เจอร์นัลที่เก่ากว่าเวลาที่กำหนด | journalctl --vacuum-time=2weeks | <img align="right" width="100%" src="image/jourVacuumTime.png"> |
+| --verify | ตรวจสอบความสอดคล้องของไฟล์ jounal | journalctl --verify | <img align="right" width="100%" src="image/jourVerify.png"> |
+| --sync | ซิงโครไนซ์ข้อความบันทึกประจำวันที่ไม่ได้เขียนไปยังดิสก์ | journalctl journalctl --sync | <img align="right" width="100%" src="image/jourSync.png"> |
+| --relinquish-var |หยุดการบันทึกลงในจาน เข้าสู่ระบบไฟล์ชั่วคราว | journalctl journalctl --relinquish-var | <img align="right" width="100%" src="image/jourRelinquish.png"> |
+| --smart-relinquish-var | คล้ายกัน แต่ NOP หากไดเร็กทอรีบันทึกอยู่บนรูทเมาท์ | journalctl --smart-relinquish-var | |
+| --flush | ล้างข้อมูลเจอร์นัลทั้งหมดจาก /run ลงใน /var | journalctl --flush | <img align="right" width="100%" src="image/jourFlush.png"> |
+| --rotate | ขอหมุนเวียนไฟล์เจอร์นัลทันที | journalctl --rotate | <img align="right" width="100%" src="image/jourRotate.png"> |
+| --header | แสดงข้อมูลส่วนหัวของวารสาร | journalctl --header | <img align="right" width="100%" src="image/jourHeader.png"> |
+| --list-catalog | แสดงรหัสข้อความทั้งหมดในแค็ตตาล็อก | journalctl --list-catalog | <img align="right" width="100%" src="image/jourListCatalog.png"> |
+| --dump-catalog | แสดงรายการในแค็ตตาล็อกข้อความ | journalctl --dump-catalog | <img align="right" width="100%" src="image/jourDumpCatalog.png"> |
+| --update-catalog | อัพเดตฐานข้อมูลแค็ตตาล็อกข้อความ | sudo journalctl --update-catalog |  |
+| --setup-keys |สร้างคู่คีย์ FSS ใหม่ | sudo journalctl --setup-keys | <img align="right" width="100%" src="image/jourSetupKeys.png"> |
 </table>
 </div>
