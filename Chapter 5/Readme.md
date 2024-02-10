@@ -168,3 +168,4 @@ https://www.redhat.com/sysadmin/create-delete-files-directories-linux<br>
 https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/#:~:text=to%20a%20File-,What%20Is%20the%20grep%20Command%20in%20Linux,see%20which%20lines%20contain%20it.<br>
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/<br>
 
+- [Reference Working with Texts](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Reference/Chapter%205.md)
