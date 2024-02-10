@@ -209,10 +209,10 @@ ELK Stack รองรับความต้องการพื้นที�
 การเลือกใช้ที่เหมาะกับ Graylog เป็นทางเลือกที่เหมาะสมกับการจัดการและวิเคราะห์ข้อมูล Log ในระบบ IT หรือระบบขนาดใหญ่ด้วยตัวกรองและการค้นหาที่มีประสิทธิภาพสูงของ Graylog ทำให้สามารถหาข้อมูล Log ที่ซับซ้อนได้อย่างมีประสิทธิภาพ ทำงานร่วมกับหลายแหล่งข้อมูลที่มีรูปแบบแตกต่างกันได้ รองรับระบบปฎิบัติการที่หลากหลาย
 
 # Chapter
-- 🛠 [**Introduction Monitoring and Logging Tools**]()
-- 📈 [**Chapter 2 Log Reader and Analysis**]()
-- 📝 [**Chapter 3 Log Collection and Server**]()
-- 📚 [**Chapter 4 Log Files**]()
-- 📩 [**Chapter 5 Working with Texts**]()
+- 🛠 [**Introduction Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/README.md)
+- 📈 [**Chapter 2 Log Reader and Analysis**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%202/Readme.md)
+- 📝 [**Chapter 3 Log Collection and Server**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%203/Readme.md)
+- 📚 [**Chapter 4 Log Files**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%204/Readme.md)
+- 📩 [**Chapter 5 Working with Texts**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%205/Readme.md)
 
 # Source 
