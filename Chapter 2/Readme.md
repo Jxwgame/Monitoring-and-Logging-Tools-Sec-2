@@ -20,12 +20,17 @@
 
 | Options                 | Description                | Example   | Result |
 | :---------------:  | :---------------------: | :-----------------: | :----------------: |
-| --system           | แสดงข้อความจาก service ของระบบ     | journalctl --system |  |
-| --user           | แสดงข้อความจาก service ของผู้ใช้ | journalctl --user |       |
-| -M, --machine=CONTAINER           | แสดงข้อความจาก machine หรือ container นั้นๆ | journalctl -M CONTAINER_NAME |       |
-| -S, --since=DATE           | แสดงข้อความตั้งแต่เวลาที่กำหนด | journalctl --since "2024-02-04 10:00:00" |       |
-| -U, --until=DATE          | แสดงข้อความจนถึงเวลาที่กำหนด | journalctl --until "2024-02-10 10:00:00" |       |
-| -c, --cursor=CURSOR           | แสดงบันทึกตามตำแหน่งที่กำหนด | journalctl -c <cursor_value> |       |
-| --after-cursor=CURSOR           | แสดงบันทึกที่เกิดขึ้นหลังจากตำแหน่งที่กำหนด | journalctl --after-cursor=<cursor_value> |       |
+| --system           | แสดงข้อความจาก service ของระบบ     | journalctl --system | <img align="right" width="100%" src="image/jourSystem.png"> |
+| --user           | แสดงข้อความจาก service ของผู้ใช้ | journalctl --user | <img align="right" width="100%" src="image/jourUser.png"> |
+| -M, --machine=CONTAINER           | แสดงข้อความจาก machine หรือ container นั้นๆ | journalctl -M CONTAINER_NAME |  |
+| -S, --since=DATE           | แสดงข้อความตั้งแต่เวลาที่กำหนด | journalctl --since "2024-02-04 10:00:00" | <img align="right" width="100%" src="image/jourSince.png"> |
+| -U, --until=DATE          | แสดงข้อความจนถึงเวลาที่กำหนด | journalctl --until "2024-02-10 10:00:00" | <img align="right" width="100%" src="image/jourUntil.png"> |
+| -c, --cursor=CURSOR           | แสดงบันทึกตามตำแหน่งที่กำหนด | journalctl -c <cursor_value> |  |
+| --after-cursor=CURSOR           | แสดงบันทึกที่เกิดขึ้นหลังจากตำแหน่งที่กำหนด | journalctl --after-cursor=<cursor_value> |  |
+| --show-cursor           | แสดง curosr | journalctl --show-cursor | <img align="right" width="100%" src="image/jourShowCursor.png"> |
+| --cursor-file=FILE           |  |  |  |
+| -b [ID][±offset], --boot [=ID][±offset] | แสดงข้อความที่เกี่ยวกับการบูต โดยกำหนดลำดับได้ | journalctl -b [ID][±offset] | <img align="right" width="100%" src="image/jourBoot.png"> |
+| --list-boots           | แสดงผลบูตแบบ list | journalctl --list-boots | <img align="right" width="100%" src="image/jourListBoot.png"> |
+| -k, --dmesg           | แสดงบันทึกในระดับ kernel | journalctl -k | img align="right" width="100%" src="image/jourDmesg.png"> |
 </table>
 </div>
