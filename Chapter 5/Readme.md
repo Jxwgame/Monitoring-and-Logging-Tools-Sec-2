@@ -205,8 +205,37 @@ esc เพื่อเข้าสู่Command Mode<br>
 * d$ = ตัดทุกอย่างจาก ที่เคอร์เซอร์อยู่<br>
 * P = paste ก่อนเคอร์เซอร์<br>
 * p = paste หลังเคอเซอร์<br>
+**ข้อดีของ VI**<br>
+* ยืดหยุ่นและหลากหลาย<br>
+* เสถียรมาก<br>
+* มีโหมดCommand กับ Insert
+* Community Support
 
+**ข้อเสียของ VI**<br>
+* ยากที่จะเข้าใจ<br>
 
+###2. การแปลงข้อความ
+การแปลงข้อความจากรูปแบบหนึ่งไปเป็นอีกรูปแบบโดยใช้คำสั่ง linux<br>
+**การแปลงรูปแบบตัวอักษร**
+**tr** <br>
+คำสั่ง tr ใช้ในการแปลงตัวอักษรภายในไฟล์ ให้เปลี้ยนไปตามข้อกำหนกของเรา
+tr [option] [set1]
+ตัวอย่างการใช้ tr
+cat popo
+output
+kmitl fight
+เปลี่ยน ตัว kเล็กเป็นตัวใหญ้
+cat popo |tr 'k' 'K'
+Kmitl fight
+เปลี่ยน ตัวอักษรทั้งไฟล์ เป็นตัวใหญ่
+tr "[:lower:]" "[:upper:]" < popo
+output
+KMITL FIGHT
+คร่าวๆประมาณนี้ละกันนะ สำหรับคำสั่ง tr
+
+**Fold**
+คำสั่งFoldใช้เพื่ออกำหนดระยะความกว้างของบรรทัดตามใจของเรา
+fold [option] [file]
 
 
 
@@ -244,6 +273,8 @@ https://www.geeksforgeeks.org/grep-command-in-unixlinux/<br>
 https://poundxi.com/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89-nano-%E0%B8%9A%E0%B8%99-linux<br>
 https://arit.rmutsv.ac.th/th/blogs/80-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87-nano-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B8%99-linux-923<br>
 https://www.loginradius.com/blog/engineering/vim-getting-started/#:~:text=Vim%20is%20a%20text%20editor,a%20mouse%20with%20a%20keyboard.<br>
-https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started
+https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started<br>
+https://saixiii.com/tr-linux-command/<br>
+https://www.geeksforgeeks.org/fold-command-in-linux-with-examples/<br>
 
 - [Reference Working with Texts](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Reference/Chapter%205.md)
