@@ -26,10 +26,6 @@
 ### lastcomm Command - Documentação da IBM
 #### https://www.ibm.com/docs/pt/aix/7.1?topic=l-lastcomm-command
 
-## wc
-### How to use the Linux wc command - IONOS
-#### https://www.ionos.com/digitalguide/server/configuration/linux-wc-command/
-
 ## sort
 ### Sort Command in Linux with Practical Examples – TecAdmin
 #### https://tecadmin.net/linux-sort-command/
