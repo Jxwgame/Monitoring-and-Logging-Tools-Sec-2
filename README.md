@@ -40,13 +40,13 @@
         <td style="text-align: center;">65070094</td>
         <td style="text-align: center;">นายธนภัทร โชติรัตน์</td>
         <td style="text-align: center;">Chapter 2 Log Reader/Analysis</td>
-        <td style="text-align: center;"><img align="center" width="100%" src=""></td>
+        <td style="text-align: center;"><img align="center" width="100%" src="https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/image/Ball.jpg"></td>
       </tr>
       <tr>
         <td style="text-align: center;">65070096</td>
         <td style="text-align: center;">นายธนวัฒน์ สอนสระน้อย</td>
         <td style="text-align: center;">Chapter 4 Log Files</td>
-        <td style="text-align: center;"><img align="center" width="100%" src=""></td>
+        <td style="text-align: center;"><img align="center" width="100%" src="https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/image/Japan.jpg"></td>
       </tr>
       <tr>
         <td style="text-align: center;">65070108</td>
