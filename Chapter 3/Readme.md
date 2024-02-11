@@ -35,8 +35,11 @@ syslogd daemon ช่วยจัดการข้อความจากเ�
 
 #### การติดตั้ง
 * sudo apt-get update<br>
+![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/109953502/28113430-8e7b-4272-baaa-9c6410cfbdcf)
 
 * sudo apt-get install inetutils-syslogs
+![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/109953502/b36b46c6-1037-4b4a-8dab-b9e6cec3a280)
+
 เพื่อติดตั้ง syslogd หลังจาดติดตั้งแล้วจะเริ่มเก็บ log ทันที
 
 #### Option
