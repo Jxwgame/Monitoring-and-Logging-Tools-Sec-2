@@ -111,6 +111,32 @@
 #### Option และ Command ทั้งหมดของคำสั่ง lastcomm
 - 📚 [**การใช้และคำอธิบายเบื้องต้นของ Option&Command ทั้งหมดของคำสั่ง lastcomm**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%202/Op%26Com_Lastcomm/Readme.md)
 
+## คำสั่งเพิ่มเตอมไว้คอยช่วยเหลือ
+### 👉 Wc
+**wc**  คือ คำสั่งที่ใช้ในการนับบรรทัด คำ และ byte ในไฟล์ ที่ระบุ
+
+#### Syntax ของคำสั่ง wc
+	wc [Option] [File]
+
+#### ตัวอย่างเมื่อใช้คำสั่ง wc
+<div>
+  <img align="center" width="80%" src="image/wc.png">
+</div>
+
+#### Option และ Command ทั้งหมดของคำสั่ง wc
+- 📚 [**การใช้และคำอธิบายเบื้องต้นของ Option&Command ทั้งหมดของคำสั่ง wc**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%202/Op%26Com_wc/Readme.md)
+  
+### 👉 Sort
+**sort**  คือ คำสั่งที่ช่วยในการลำดับไฟล์ จากน้อยไปหามาก
+
+#### Syntax ของคำสั่ง sort
+	sort [options] [file(s)]
+
+#### Option และ Command ทั้งหมดของคำสั่ง sort
+- 📚 [**การใช้และคำอธิบายเบื้องต้นของ Option&Command ทั้งหมดของคำสั่ง sort**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%202/Op%26Com_sort/Readme.md)
+
+
+
 # Other Chapter
 - 🛠 [**Introduction Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/README.md)
 - 🛠 [**Chapter 1 Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%201/Readme.md)
