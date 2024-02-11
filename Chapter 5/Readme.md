@@ -264,7 +264,9 @@ head -4 hospital.txt
 เป็นการ แสดงข้อมูล 4 บรรทักแรกของไฟล์ hospital
 **tail**<br>
 คำสั่งtail คล้ายๆ head แค่เปลี่ยนจากบรรทัดแรกๆเปลี่ยนเป็นบรรทัดหลังสุด
+```
 tail [option] [file]
+```
 ตัวอย่าง
 tail -5 popo.txt
 แสดงข้อมูล5 บรรทัดสุดท้ายของไฟล์popo.txt
@@ -316,6 +318,9 @@ head<br>
 
 tail<br>
 * https://saixiii.com/tail-linux-command/
+
+awk<br>
+https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
 
 
 
