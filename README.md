@@ -63,7 +63,7 @@
         <td style="text-align: center;">65070114</td>
         <td style="text-align: center;">นายนพรุจ บุญประสิทธิผล</td>
         <td style="text-align: center;">Chapter 5 Working With Text</td>
-        <td style="text-align: center;"><img align="center" width="100%" src=""></td>
+        <td style="text-align: center;"><img align="center" width="100%" src="https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/image/pob.jpg"></td>
       </tr>
       <tr>
         <td style="text-align: center;">65070139</td>
