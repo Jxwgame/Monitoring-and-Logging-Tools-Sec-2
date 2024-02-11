@@ -253,24 +253,38 @@ pandoc math.tex -s --mathml  -o mathMathML.html<br>
 ### 3. การกรองข้อความ<br>
 การกรองข้อความคือการที่เราต้องการคำบางส่วนจากไฟล์จะได้ไม่ต้องหา<br>
 **grep**<br>
-คำสั่งgrep สามารถทำให้หาคำต่างๆได้โดยใส่คำที่ต้องการ ค้นหาหลังคำสั่ง
-grep female hospitalpoeple.txt
-คำสั่งนี้จะทำการหา บรรทัดที่มีผู้หญิงในโรงพยาบาล
+คำสั่งgrep สามารถทำให้หาคำต่างๆได้โดยใส่คำที่ต้องการ ค้นหาหลังคำสั่ง<br>
+grep female hospitalpoeple.txt<br>
+คำสั่งนี้จะทำการหา บรรทัดที่มีผู้หญิงในโรงพยาบาล<br>
 **head**<br>
-คำสั่ง head สามารถกรองเฉพาะบรรทักแรกๆของไฟล์นั้นๆได้ในกรณีข้อมูลมันเยอะเกินไป
-head [option] [file]
-ตัวอยาง
-head -4 hospital.txt
-เป็นการ แสดงข้อมูล 4 บรรทักแรกของไฟล์ hospital
+คำสั่ง head สามารถกรองเฉพาะบรรทักแรกๆของไฟล์นั้นๆได้ในกรณีข้อมูลมันเยอะเกินไป<br>
+head [option] [file]<br>
+ตัวอยาง<br>
+head -4 hospital.txt<br>
+เป็นการ แสดงข้อมูล 4 บรรทักแรกของไฟล์ hospital<br>
 **tail**<br>
-คำสั่งtail คล้ายๆ head แค่เปลี่ยนจากบรรทัดแรกๆเปลี่ยนเป็นบรรทัดหลังสุด
+คำสั่งtail คล้ายๆ head แค่เปลี่ยนจากบรรทัดแรกๆเปลี่ยนเป็นบรรทัดหลังสุด<br>
 ```
-tail [option] [file]
+tail [option] [file]<br>
 ```
-ตัวอย่าง
-tail -5 popo.txt
-แสดงข้อมูล5 บรรทัดสุดท้ายของไฟล์popo.txt
-**awk**<br>
+ตัวอย่าง<br>
+tail -5 popo.txt<br>
+แสดงข้อมูล5 บรรทัดสุดท้ายของไฟล์popo.txt<br>
+**more**<br>
+คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีละหน้า
+more [option] [file]
+จะแสดงข้อความทั้งหมดโดยใช้space bar ในการไปหน้าต่อไปและq เพื่อquit
+**ข้อควรระวัง**
+* กลับไปหน้าก่อนหน้าไม่ได้
+* ไม่มีฟังค์ชันค้นหา
+**less**<br>
+คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีบรรทัด
+less [option] [file]
+จะแสดงข้อความโดยการใช้spacebarหรือpag down เพื่อลงอีกบรรทัด enter เพื่อกลับขึ้นข้างบน สามารถใช้/keyword หาคำได้<br>
+**wc**
+คำสั่งการที่เราต้องการรู้ว่าไฟล์ฺนั้นๆมีกี่คำ กี่บรรทัด และกี่byte<br>
+wc [option] [file]
+
 
 
 
@@ -319,8 +333,9 @@ head<br>
 tail<br>
 * https://saixiii.com/tail-linux-command/
 
-awk<br>
-https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+more,less<br>
+* https://www.baeldung.com/linux/more-less-most-commands#:~:text=more%20and%20less%20have%20the,files%20with%20the%20same%20options.
+* https://ioflood.com/blog/more-linux-command/#:~:text=The%20'more'%20command%20in%20Linux%20is%20used%20to%20view%20the,display%20the%20contents%20of%20'filename.<br>
 
 
 
