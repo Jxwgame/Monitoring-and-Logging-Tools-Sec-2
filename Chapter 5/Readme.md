@@ -156,16 +156,26 @@ nano ชื่อไฟล์ที่ต้องการแก้ไข<br>
 * Ctrl + C	แสดงจุดที่เราอยู่<br>
 * Ctrl + ^	คล้ายๆการลากคำพูด แต่มันจะcopyไว้<br>
 * Ctrl + U	Paste คำที่เราได้Copy ไว้<br>
-ข้อดีของ Nano<br>
+**ข้อดีของ Nano**<br>
 * ใช้งานง่าย<br>
 * เรียนรู้คำสั่งแปปเดียว<br>
 
-ข้อเสียของ Nano<br>
+**ข้อเสียของ Nano**<br>
 *ช้ากว่าVIM<br>
 *จำกัดความสามารถในการปรับแต่ง<br>
 *ทำงานผ่านCommand Line ไม่ได้<br>
 
 ##### VIM(Vi improve) คืออะไร<br>
+Vim คือ Text Editer คล้ายๆ nanoเลยแต่จะมีความซับซ้อนกว่า nano พอสมควร vim สนับสนุนการเขียนscript เป็นสิ่งจำเป็นที่ต้องเรียนรู้ถ้าจะ เล่นกับตัวอักษรในLinux<br>
+**คำสั่งต่างๆในVim**<br>
+การเรียกใช้คำสั่ง VIM<br>
+Vim มี 2 Mode<br>
+* Insert Mode<br>
+* Command Mode<br>
+**Insert Mode**<br>
+i เพื่อเข้าสู่ Insert Mode จากนั้นพิมตามใจได้เลย
+
+** Command Mode**<br>
 
 
 
@@ -200,5 +210,7 @@ https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/#:~:te
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/<br>
 https://poundxi.com/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89-nano-%E0%B8%9A%E0%B8%99-linux<br>
 https://arit.rmutsv.ac.th/th/blogs/80-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87-nano-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B8%99-linux-923<br>
+https://www.loginradius.com/blog/engineering/vim-getting-started/#:~:text=Vim%20is%20a%20text%20editor,a%20mouse%20with%20a%20keyboard.<br>
+https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started
 
 - [Reference Working with Texts](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Reference/Chapter%205.md)
