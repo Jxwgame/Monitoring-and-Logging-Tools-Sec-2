@@ -51,7 +51,7 @@
         <td style="text-align: center;">65070108</td>
         <td style="text-align: center;">นายธีรภัทร์ สังข์สี</td>
         <td style="text-align: center;">Overview and Chapter 1 Monitoring/Logging Tools</td>
-        <td style="text-align: center;"><img align="center" width="100%" src=""></td>
+        <td style="text-align: center;"><img align="center" width="100%" src="https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/image/game.jpg"></td>
       </tr>
       <tr>
         <td style="text-align: center;">65070109</td>
