@@ -361,13 +361,6 @@ optionต่างๆ ของ wc<br>
 
 
 
-
-
-
-
-
-https://earthly.dev/blog/linux-text-processing-commands/
-
 # Other Chapter
 - 🛠 [**Introduction Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/README.md)
 - 🛠 [**Chapter 1 Monitoring and Logging Tools**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%201/Readme.md)
