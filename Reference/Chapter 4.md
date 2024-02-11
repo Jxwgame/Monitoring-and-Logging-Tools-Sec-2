@@ -1,4 +1,10 @@
 # Chapter 4 Log Files
+https://www.quickserv.co.th/knowledge-base/solutions/Log-file-คืออะไร-สำคัญต่อการส่งข้อมูลอย่างไร-เรื่องนี้เราอยากเล่า/
+
+https://stackify.com/linux-logs/
+
+https://www.youtube.com/watch?v=Ei276TjyxCA
+
 **https://www.libertycenterone.com/blog/linux-security-logs/**
 
 **https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server**
