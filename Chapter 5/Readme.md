@@ -33,41 +33,54 @@
 ก่อนที่จะสร้างไฟล์เราต้องรู้ก่อนว่าตอนนี้เราอยู่ที่ไหนในระบบ<br>
 **PWD**<br>
 ใช้ Command `PWD`<br>
+```
+PWD
+```
 หลังใช้จะบอกว่าเราอยุ่ ณ จุดใดในระบบ<br>
 **MKDIR**<br>
 Command การ สร้างfolder/directory แรก `mkdir`<br>
 ใช้ `mkdir` ตามด้วยชื่อdirectoryที่อยากตั้้ง
 ตัวอย่างเช่น<br>
-                
+```
  mkdir popo1
-
+```
 จะเป็นการสร้าง directory ชื่อ popo1 มา
 หากเราใช้คำสั่ง ls ดู Directory ในไฟล์นั้นๆจะพบว่า directory ได้ถูกสร้างขึ้นแล้ว
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/a6b39d8d-6b41-4c3c-9e26-bf450a2f04a5)<br>
 **Trick เลฺ็กๆน้อยๆ**<br>
 เราสามารถสร้างdirectoryได้ หลายๆอันในทีเดียวเช่นกันเช่น
-**codeเดียวแก้** mkdir popo1 popo2 popo3
+```
+mkdir popo1 popo2 popo3
+```
 เราได้จะได้ไม่ต้องพิมหลายๆรอบเสียเวลา<br>
 แต่หากเรามีไฟล์ชื่อนั้นอยู่แล้ว คำสั่งจะข้ามไป สร้างDirectory อันที่เหลือเลย<br>
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/0a259530-2d95-42ec-9012-34c35bd56369)<br>
 หากเราต้องการสร้าง Directory ซ้อนใน Directory อีกทีนึง เราสามารถ ใช้ `/` ในการ เจาะลึกลงไปได้เช่น<br>
-mkdir popo1/popoinside/popoinsideinsidee<br>
+```
+mkdir popo1/popoinside/popoinsideinsidee
+```
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/170e2357-07ed-43e5-9fe8-65b8ccd64328)<br>
 จะเห็นได้ว่า ข้างใน `popo4` จะมี directory `popoinside` และ `popoinside` จะมี Directory `popoinsidee` อีกทีนึง<br>
 **มาถึงการลบ กันบ้าง**<br>
 ถ้าตอนไหนเราอยากลบDirectoryใน linux เราสามารถใช้คำสั่ง `rm -r`ในการลบได้ หรือ`rmdir` <br>
 ตัวอย่าง<br>
-rm -r popo1<br>
+```
+rm -r popo1
+```
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/1b1197c4-f72a-4fe7-b0b2-83fd4a631dbc)<br>
 จากที่มี Directory popo1ก็จะหายไป<br>
 หากต้องการลบ Directory ที่ว่างเปล่าไม่มีอะไรข้างในใช้ `rm -d`<br>
 ตัวอย่าง<br>
 ณ ตอนนี้เรามีDirectory เหลือ 4 อัน nopbys popo2 popo3 popo4<br>
 ใช้คำสั่ง<br>
-rm -d popo4<br>
+```
+rm -d popo4
+```
 จะเห็นได้ว่า จะไม่สามารถลบได้เพราะข้างใน popo4 ยังมี content ข้างในอยุ่ นั้นก็คือ popoinside<br>
 แต่ถ้าใช้คำสั่ง<br>
-rm -d popo2<br>
+```
+rm -d popo2
+```
 จะลบ Directory ได้ทันที<br>
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/e8bb8f37-749a-4c0d-80da-3145efc9ac7a)<br>
 **ข้อควรระวัง**<br>
@@ -75,24 +88,30 @@ rm -d popo2<br>
 `-vi`<br>
 มันจะยืนยันก่อนว่าเราจะลบจริงๆใช้ไหม พิม y เพื่อ yes พืม n เพื่อ No<br>
 **การสร้างไฟล์เปล่าๆ**<br>
-ง่ายๆเราใช่คำสั่ง touch ตามด้วยชื่อไฟล์ เพื่อสร้างไฟล์<br>
+ง่ายๆเราใช่คำสั่ง `touch` ตามด้วยชื่อไฟล์ เพื่อสร้างไฟล์<br>
 ยกตัวอย่าง<br>
-touch gumball<br>
+```
+touch gumball
+```
 จะได้ไฟล์ชื่อ gumball แบบในรูปเลย<br>
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/1377ace3-0fc5-4aac-b945-2250694ace9e)<br>
 **การลบไฟล์**<br>
 ลบง่ายมาแค่ใช้คำสั่ง rm ตามด้วยชื่อไฟล์จะลบทันที เช่น เราอยากลบ gumball เราใช้คำสั่ง<br>
-rm gumball<br>
+```
+rm gumball
+```
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/b2c83a57-57d3-40fb-a0a9-17935260926e)<br>
 
 **2. มาต่อกันที่การอ่านและเขียนเนื้อหาไฟล์**<br>
 หลังจากที่ได้เรียนรู้การสร้างไฟล์ และ Directoryแล้วเราต้องเรียนรู้ในการเอาข้อมูลมาใส่ในไฟล์ด้วยเพื่อการนำไปใช่ประโยนชน์ที่หลากหลายมากขึ้น<br>
-มาเรียนรู้คำสั่ง echo กัน<br>
+มาเรียนรู้คำสั่ง `echo` กัน<br>
 **Echo**<br>
-echo เป็นคำสั่งที่จะแสดงผลผ่านTerminal ตาม inputที่เราใส่ไป<br>
+`echo` เป็นคำสั่งที่จะแสดงผลผ่านTerminal ตาม inputที่เราใส่ไป<br>
 ตัวอย่างเช่น<br>
 echo คำว่า Hi user ใช้คำสั่ง<br>
-echo Hi user<br>
+```
+echo Hi user
+```
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/0e5f1b8d-2586-4b02-8781-3ffc1ae082b1)<br>
 สามารถใส่ลูกเล่นได้หลายๆแบบแต่ ต้องเติม-e หลัง echo <br>
 ตัวอย่างลูกเล่น echo<br>
@@ -104,26 +123,38 @@ echo Hi user<br>
 เอาแค้นี้ก่อนดีกว่าจริงๆมีลูกเล่นอีกเยอะนะ<br>
 และก็ไหนๆเราก็มีไฟลเปล่าๆแล้วเราสามารถ ยัดข้อความที่ echo ใส่ในไฟล์ได้ ไฟล์เราจะได้ไม่เป็นไฟล์เปล่าอีกต่อไปเย้<br>
 ใช้คำสั่ง echo "_____" > ชื่อไฟล์.txt เป็นการเขียนทับข้อความลงไฟล์นั้นๆไปเลย<br>
-echo "Hello My Name Is ZUZIE" > text.txt<br>
+```
+echo "Hello My Name Is ZUZIE" > text.txt
+```
 ตอนนี้ไฟล์ text.txt ก็มีข้อความข้างในว่า "Hello My Name Is ZUZIE" แล้วแต่เราจะดูยังไง เราเลยต้องมีคำสั่ง Catมาช่วยนั่นเอง<br>
 **Cat**<br>
-ใช้คำสั่ง cat ตามด้วยชื่อไฟล์ จะเป็นการแสดงแสดงข้อความข้างในไฟล์ออกมาทางTerminal คล้ายๆกับ echo แต่ต้องเลิอกไฟล์<br>
-cat text.txt<br>
+ใช้คำสั่ง `cat` ตามด้วยชื่อไฟล์ จะเป็นการแสดงแสดงข้อความข้างในไฟล์ออกมาทางTerminal คล้ายๆกับ echo แต่ต้องเลิอกไฟล์<br>
+```
+cat text.txt
+```
 จะได้outputว่า<br>
-Hello My Name Is Zuzie<br>
+```
+Hello My Name Is Zuzie
+```
 ![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/118421368/d857bf52-0a89-4eb8-b6be-e32dee718c38)
 
 **3. การค้นหาข้อความในไฟล์**<br>
 การที่เรามีข้อมูลแล้วแต่ว่าบางทีนั้นเราต้องการข้อมูลในจุดๆนึงซั่งบางทีข้อมูลมันเยอะเกินทำให้เราอาจจะต้องเสียเวลาในการเลื่อนหาจะ linux เลยมีตัวช่วยในการหาข้อมูลหรือข้อความในไฟล์เพือความสะดวกสะบาย<br>
 **GREP**<br>
 คำสั่ง grep เอาไว้ใช้หาคำเฉพาะเจาะจงในบรรทัดตามที่เราต้องการ<br>
-grep "คำที่ต้องการค้นหา" ไฟล์ที่เราต้องการค้นหา<br>
+```
+grep "คำที่ต้องการค้นหา" ไฟล์ที่เราต้องการค้นหา
+```
 เช่น เราจะหา Error ในไฟล์ log.txt เราก็ใช้คำสั่ง grep "error" log.txt<br>
 Output(สมมุติ)<br>
-1:2023-11-16 14:23:54 ERROR: Connection Failed.<br>
-2:2023-11-16 14:24:01 ERROR: File not found.<br>
+```
+1:2023-11-16 14:23:54 ERROR: Connection Failed.
+2:2023-11-16 14:24:01 ERROR: File not found.
+```
 สามารถใส่ option ในการหาได้ด้วยเช่น<br>
-grep <option> <word> <filename><br>
+```
+grep <option> <word> <filename>
+```
 -i = ไม่สนพิมเล็กพิมใหญ่<br>
 -v = แสดงoutput ที่ไม่ได้อยู่ในคำที่เราหา<br>
 -c = นับจำนวนบรรทัดที่เข้าเงื่อนไข<br>
@@ -217,73 +248,113 @@ esc เพื่อเข้าสู่Command Mode<br>
 ### 2. การแปลงข้อความ
 การแปลงข้อความจากรูปแบบหนึ่งไปเป็นอีกรูปแบบโดยใช้คำสั่ง linux<br>
 **การแปลงรูปแบบตัวอักษร**
-**tr** <br>
+**`tr`** <br>
 คำสั่ง tr ใช้ในการแปลงตัวอักษรภายในไฟล์ ให้เปลี้ยนไปตามข้อกำหนกของเรา<br>
-tr [option] [set1]<br>
+```
+tr [option] [set1]
+```
 ตัวอย่างการใช้ tr<br>
-cat popo<br>
+```
+cat popo
+```
 output<br>
-kmitl fight<br>
+```
+kmitl fight
+```
 เปลี่ยน ตัว kเล็กเป็นตัวใหญ้<br>
-cat popo |tr 'k' 'K'<br>
-Kmitl fight<br>
+```
+cat popo |tr 'k' 'K'
+Kmitl fight
+```
 เปลี่ยน ตัวอักษรทั้งไฟล์ เป็นตัวใหญ่<br>
-tr "[:lower:]" "[:upper:]" < popo<br>
+```
+tr "[:lower:]" "[:upper:]" < popo
+```
 output<br>
-KMITL FIGHT<br>
+```
+KMITL FIGHT
+```
 คร่าวๆประมาณนี้ละกันนะ สำหรับคำสั่ง tr<br>
 
 **Fold**<br>
 คำสั่งFoldใช้เพื่ออกำหนดระยะความกว้างของบรรทัดตามใจของเรา<br>
-fold [option] [file]<br>
+```
+fold [option] [file]
+```
 การจำกัดขนาดตัวอักษรต่อ1บรรทัด<br>
-fold -w[จำนวนที่ต้องการ] [file]<br>
+```
+fold -w[จำนวนที่ต้องการ] [file]
+```
 การจำกัด byte ต่อบรรทัด<br>
-fold-b[byteต่อบรรทัด] [file]<br>
+```
+fold-b[byteต่อบรรทัด] [file]
+```
 จำกัดจำนวนตามตัวอักษรและเกิดขึ้นเมื่อมี whitespace
-fold -w[จำนวนบรรทัด] -s [file]<br>
+```
+fold -w[จำนวนบรรทัด] -s [file]
+```
 
 **การแปลงรูปแบบไฟล์**<br>
 การแปลงรูปแบบไฟล์ช้วยในการเวลาที่เราค้องการใช้ ไฟล์หลากหลายประเภทเราจะได้สามารถแปลงไฟล์เป็นประเภทที่่เราต้องการ<br>
 **pandoc**
 สำหรับการแปลงไฟล์เอกสารเราใช้ pandoc ในการแปลงไฟลฺเอกสาร
+```
 pandoc math.tex -s --mathml  -o mathMathML.html<br>
+```
 จะแปลงไฟล์text เป็น HTML<br>
 
 ### 3. การกรองข้อความ<br>
 การกรองข้อความคือการที่เราต้องการคำบางส่วนจากไฟล์จะได้ไม่ต้องหา<br>
 **grep**<br>
 คำสั่งgrep สามารถทำให้หาคำต่างๆได้โดยใส่คำที่ต้องการ ค้นหาหลังคำสั่ง<br>
-grep female hospitalpoeple.txt<br>
+```
+grep female hospitalpoeple.txt
+```
 คำสั่งนี้จะทำการหา บรรทัดที่มีผู้หญิงในโรงพยาบาล<br>
 **head**<br>
 คำสั่ง head สามารถกรองเฉพาะบรรทักแรกๆของไฟล์นั้นๆได้ในกรณีข้อมูลมันเยอะเกินไป<br>
-head [option] [file]<br>
+```
+head [option] [file]
+```
 ตัวอยาง<br>
-head -4 hospital.txt<br>
+```
+head -4 hospital.txt
+```
 เป็นการ แสดงข้อมูล 4 บรรทักแรกของไฟล์ hospital<br>
 **tail**<br>
 คำสั่งtail คล้ายๆ head แค่เปลี่ยนจากบรรทัดแรกๆเปลี่ยนเป็นบรรทัดหลังสุด<br>
 ```
-tail [option] [file]<br>
+tail [option] [file]
 ```
 ตัวอย่าง<br>
 tail -5 popo.txt<br>
 แสดงข้อมูล5 บรรทัดสุดท้ายของไฟล์popo.txt<br>
 **more**<br>
-คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีละหน้า
+คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีละหน้า<br>
+```
 more [option] [file]
-จะแสดงข้อความทั้งหมดโดยใช้space bar ในการไปหน้าต่อไปและq เพื่อquit
-**ข้อควรระวัง**
-* กลับไปหน้าก่อนหน้าไม่ได้
-* ไม่มีฟังค์ชันค้นหา
+```
+จะแสดงข้อความทั้งหมดโดยใช้space bar ในการไปหน้าต่อไปและq เพื่อquit<br>
+**ข้อควรระวัง**<br>
+* กลับไปหน้าก่อนหน้าไม่ได้<br>
+* ไม่มีฟังค์ชันค้นหา<br>
 **less**<br>
-คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีบรรทัด
+คำสั่งแสดงข้อความ โดยจะแสดงผลเป็นทีบรรทัด<br>
+```
 less [option] [file]
+```
 จะแสดงข้อความโดยการใช้spacebarหรือpag down เพื่อลงอีกบรรทัด enter เพื่อกลับขึ้นข้างบน สามารถใช้/keyword หาคำได้<br>
-**wc**
+**wc**<br>
 คำสั่งการที่เราต้องการรู้ว่าไฟล์ฺนั้นๆมีกี่คำ กี่บรรทัด และกี่byte<br>
+```
 wc [option] [file]
+```
+optionต่างๆ ของ wc<br>
+-c, --byte = นับจำนวน byte  ตัวอย่าง wc -c [File.log] <br>
+-m, --chars = นับจำนวนตัวอักษรและอักขระ  ตัวอย่าง wc -m [File.log] <br>
+-l, --line = นับจำนวนบรรทัด  ตัวอย่าง wc -l [File.log] <br>
+-L, --max-line-length = นับจำนวนตัวอักษรและอักขระในแถวที่ยาวที่สุด  ตัวอย่าง wc -L [File.log] <br>
+-w, --word = นับจำนวนคำในไฟล์ ตัวอย่าง wc -w [File.log] <br>
 
 
 
