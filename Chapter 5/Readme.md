@@ -366,7 +366,6 @@ optionต่างๆ ของ wc<br>
 
 
 
-ลิ้ง
 https://earthly.dev/blog/linux-text-processing-commands/
 
 # Other Chapter
@@ -377,7 +376,7 @@ https://earthly.dev/blog/linux-text-processing-commands/
 - 📚 [**Chapter 4 Log Files**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%204/Readme.md)
 
 # Source
-
+https://earthly.dev/blog/linux-text-processing-commands/
 https://www.linode.com/docs/guides/use-nano-text-editor-commands/
 https://earthly.dev/blog/linux-text-processing-commands/<br>
 https://saixiii.com/cat-linux-command/<br>
