@@ -4,6 +4,7 @@
 
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">	
+  
 | Options                 | Description                | Example   |
 | :---------------:  | :---------------------: | :-----------------: |
 | -r, --reverse | sortข้อมูลจากตัวสุดท้ายไปยังตัวแรก | sort -r [File.log] | 
@@ -19,6 +20,7 @@
 ### คำสั่งขั้นสูงของ sort
 <div align="center" style="width: 100%; margin: auto;">
 <table style="width: 100%; border-collapse: collapse;">
+  
 | Options                 | Description                | Example   |
 | :---------------:  | :---------------------: | :-----------------: |
 | -M, --mont-sort | เรียงลำดับตามเดือน | sort -M [File.log] | 
