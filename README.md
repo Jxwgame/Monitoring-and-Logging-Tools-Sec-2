@@ -69,7 +69,7 @@
         <td style="text-align: center;">65070139</td>
         <td style="text-align: center;">นายปิยธานี ศรีทอง</td>
         <td style="text-align: center;">Chapter 3 Log Collection/Server</td>
-        <td style="text-align: center;"><img align="center" width="100%" src=""></td>
+        <td style="text-align: center;"><img align="center" width="100%" src="![1d701787-2d22-4112-8dd7-87621e82b2a8](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/109953502/71624a5e-36fb-447a-b0b3-b9bdf64ce7de)"></td>
       </tr>
       <tr>
         <td style="text-align: center;">65070141</td>
