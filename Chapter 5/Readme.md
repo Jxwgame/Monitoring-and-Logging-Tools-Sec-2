@@ -136,7 +136,26 @@ grep <option> <word> <filename><br>
 ซึ่งในตัวอย่างนี้จะแนะนำText Editer 2ตัวก่อน นั้นก็คือ<br>
 * Nano
 * VIM
-
+##### Nano คืออะไร
+nano คือคำสั่ง ilnux มีความสามารถ ในการแก้ไขและบันทึกไฟลได้แต่เมื่อเทียบกับVIMแล้ว nano ยังไม่มีความสามารถเพียงพอที่จะเทียบเท่าแต่ในความใช่งานง่ายถิอว่าเป็น Text Editor ที่เข้าใจได้ง่ายและนำมาใช้งานได้ง่านเลย<br>
+**คำสั่งต่างๆใน nano**<br>
+การเรียกใช้ nano ใช้คำสั่ง<br>
+nano ชื่อไฟล์ที่ต้องการแก้ไข<br>
+* Ctrl + G	เปิด help<br>
+* Ctrl + X	ปิดโปรแกรม<br>
+* Ctrl + O	เซฟข้อมูล<br>
+* Ctrl + R	เอาไฟล์อื่่นมาแทรกในไฟล์<br>
+* Ctrl + W	ค้นหาคำ<br>
+* Ctrl + A	เคอร์เซอไปยังซ้ายสุดบรรทัดนั้นๆ<br>
+* Ctrl + E	เคอร์เซอไปยังขวาสุดบรรทัดนั้นๆ<br>
+* Ctrl + Y	เลือนเคอร์เซอร์ไปหน้าถัดไป 1 หน้า<br>
+* Ctrl + V	เลือนเคอร์เซอร์ไปหน้าก่อนหน้า 1 หน้า<br>
+* Ctrl + K	ทำการ Cut ข้อมูลแล้วเกบไว้รอpasteได้<br>
+* Ctrl + D	ลบตัวอักษร<br>
+* Ctrl + \	ค้นหาและแทนที่ด้วยคำที่ต้องการ<br>
+* Ctrl + C	แสดงจุดที่เราอยู่<br>
+* Ctrl + ^	คล้ายๆการลากคำพูด แต่มันจะcopyไว้<br>
+* Ctrl + U	Paste คำที่เราได้Copy ไว้<br>
 
 
 
@@ -161,11 +180,14 @@ https://earthly.dev/blog/linux-text-processing-commands/
 - 📚 [**Chapter 4 Log Files**](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Chapter%204/Readme.md)
 
 # Source
+https://www.linode.com/docs/guides/use-nano-text-editor-commands/
 https://earthly.dev/blog/linux-text-processing-commands/<br>
 https://saixiii.com/cat-linux-command/<br>
 https://www.geeksforgeeks.org/echo-command-in-linux-with-examples/<br>
 https://www.redhat.com/sysadmin/create-delete-files-directories-linux<br>
 https://www.hostinger.com/tutorials/grep-command-in-linux-useful-examples/#:~:text=to%20a%20File-,What%20Is%20the%20grep%20Command%20in%20Linux,see%20which%20lines%20contain%20it.<br>
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/<br>
+https://poundxi.com/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89-nano-%E0%B8%9A%E0%B8%99-linux<br>
+https://arit.rmutsv.ac.th/th/blogs/80-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87-nano-%E0%B9%80%E0%B8%9A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99-%E0%B8%9A%E0%B8%99-linux-923<br>
 
 - [Reference Working with Texts](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/blob/main/Reference/Chapter%205.md)
