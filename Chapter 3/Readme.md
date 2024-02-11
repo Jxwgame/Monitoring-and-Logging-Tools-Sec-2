@@ -33,8 +33,8 @@ syslogd daemon ช่วยจัดการข้อความจากเ�
 * syslogd daemon จะสร้างไฟล์ /etc/syslog.pd ซึ่งเป็นบรรทัดเดียวที่มี command process ID ใช้เพื่อนสิ้นสุดหรือกำหนด syslogd daemon ใหม่ 
 * เมื่อ terminate signal ส่งไปที่ syslogd daemon จะสิ้นสุดและ syslogd daemon จะบันทึกข้อมูล end signal และสิ้นสุดทันที
 
-การติดตั้ง
-* sudo apt-get update
+####การติดตั้ง
+* sudo apt-get update<br>
   ![enter image description here](![image](https://github.com/Jxwgame/Monitoring-and-Logging-Tools-Sec-2/assets/109953502/35f6cacf-0a6e-47e8-862b-1459a0616f8f)
 )
 * sudo apt-get install inetutils-syslogs
