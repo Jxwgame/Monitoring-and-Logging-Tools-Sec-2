@@ -49,4 +49,5 @@ https://ioflood.com/blog/more-linux-command/#:~:text=The%20'more'%20command%20in
 https://www.geeksforgeeks.org/more-command-in-linux-with-examples/<br>
 wc<br>
 https://saixiii.com/wc-linux-command/<br>
+https://www.ionos.com/digitalguide/server/configuration/linux-wc-command/<br>
 
